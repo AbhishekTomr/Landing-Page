@@ -1,0 +1,112 @@
+*{
+  /* border: 1px solid whitesmoke; */
+}
+#header1 svg{
+  display: none;
+}
+#header1{
+  height: 2.8rem;
+  background-color: rgba(0, 0, 0,0.5);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#header1 h1{
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2.8rem;
+}
+
+aside{
+  display: none;
+}
+#ATF{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  /* formatting */
+  background-image: url(../images/background-mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+#ATF main{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-content: center;
+
+  /* formatting */
+  text-transform: uppercase;
+  margin: 0 1rem;
+  text-align: center;
+  height: 30%;
+}
+#ATF main h1{
+  font-size: 1.2rem;
+}
+#ATF main h3{
+  font-size: 1rem;
+}
+#ATF main h4{
+  font-size: 0.8rem;
+}
+#ATF main button{
+  color: white;
+  background-color: transparent;
+  font-family: Cantarell;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 3px solid whitesmoke;
+  align-self: center;
+  padding: 0.5rem;
+}
+#ATF main button:hover{
+  background-color: rgb(221, 236, 241,0.3);
+  cursor: pointer;
+  transition-delay: .1s;
+}
+#nav-F{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  /* background-color: yellow; */
+  height: 20vh;
+}
+#nav-F a{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5vh;
+  border: 0.5px solid whitesmoke;
+  background-color: rgb(23, 168, 146,0.6);
+  color: whitesmoke;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#nav-F a svg{
+  width: 20%;
+  height: 100%;
+}
+#nav-F a svg use{
+  stroke: black;
+  stroke-width: 2px;
+  fill: currentColor;
+}
+#nav-F a:hover{
+  color:rgb(23, 168, 146);
+  background-color: whitesmoke;
+  transition-delay: 0.1s;
+}

@@ -1,0 +1,34 @@
+
+#ATF{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  /* formatting */
+  background-image: url(../images/background-mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+aside{
+  width: 80%;
+  border: 2px solid white;
+  padding: 2rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+main,header{
+  display: none;
+}
+
+@media all and (max-width:170px){
+  aside{
+    display: none;
+  }
+}

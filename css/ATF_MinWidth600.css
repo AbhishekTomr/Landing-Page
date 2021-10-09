@@ -1,0 +1,47 @@
+*{
+  /* border: 1px solid whitesmoke; */
+}
+#nav-F{
+  display: none;
+}
+
+#header1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+#logo{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#logo svg{
+  max-width: 75px;
+  min-width: 75px;
+}
+#logo h1{
+  font-size: 1.2rem;
+  flex-grow: 1;
+  padding:  0 .2rem;
+}
+#navicon{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 30%;
+}
+#navicon a{
+  color: whitesmoke;
+}
+#header1 svg{
+  display: initial;
+  fill: currentColor;
+  height: 100%;
+  width: 100%;
+}
+#navicon a:hover{
+  background-color: rgba(255, 255, 255,0.3);
+}
